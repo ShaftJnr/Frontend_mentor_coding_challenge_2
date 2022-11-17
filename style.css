@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: hsl(212, 45%, 89%)
+}
+
+img{
+    display: block;
+    max-width: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+    margin-bottom: 20px;
+    margin-left: 650px;
+    margin-top: 200px;
+    
+    
+  
+}
+
+.container{
+    display: block;
+    background-color: white;
+    margin-right: 1000px;
+    
+
+    
+    
+}
+
+.Heading{
+    font-family: "Outfit";
+    font-weight: 700;
+}
+
+.Text{
+    font-family: "Outfit";
+    font-weight: 400;
+}
