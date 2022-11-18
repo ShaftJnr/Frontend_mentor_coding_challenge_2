@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 @font-face {
     font-family: "Outfit";
     src: url(./Outfit/Outfit-VariableFont_wght.ttf);
@@ -5,10 +10,15 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
 
 img{
-    max-width: 25%;
+    max-width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
    /* display: block;*/
@@ -16,34 +26,28 @@ img{
 
 .container{
     background-color: white;
+    width: 290px;
     padding: 20px;
     border-radius: 10px;    
-    box-shadow: 5px 5px 5px 5px solid grey; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh -1px);
-    margin:1.25rem;
-    margin-bottom: 2rem;
-    
+    box-shadow: 10px;
 }
 
 .Heading{
     font-family: "Outfit" , sans-serif;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    margin-bottom: 5px;
+    margin-bottom: 20px 0;
+    text-align: center;
 }
 
 .Text{
     font-family: "Outfit";
     font-weight: 400;
-    color: hsl(212, 45%, 89%);
+    color: hsl(220, 15%, 55%);
     font-size: 15px;
+    text-align: center;
 }
 
 footer{
-    margin-top: 300px;
-    text-align: center;
+
 }
