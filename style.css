@@ -3,11 +3,13 @@
     margin: 0;
 }
 
+/*Font*/
 @font-face {
     font-family: "Outfit";
     src: url(./Outfit/Outfit-VariableFont_wght.ttf);
 }
 
+/*Body Styling*/
 body{
     background-color: hsl(212, 45%, 89%);
     display: flex;
@@ -16,6 +18,8 @@ body{
     min-height: 100vh;
 }
 
+
+/*Image Styling*/
 img{
     max-width: 100%;
     border-radius: 10px;
@@ -23,6 +27,7 @@ img{
    /* display: block;*/
 }
 
+/*Container Styling*/
 .container{
     background-color: white;
     width: 290px;
@@ -32,6 +37,7 @@ img{
 
 }
 
+/*Heading Styling*/
 .Heading{
     font-family: "Outfit" , sans-serif;
     font-weight: 700;
@@ -40,6 +46,7 @@ img{
     text-align: center;
 }
 
+/*Text Styling*/
 .Text{
     font-family: "Outfit";
     font-weight: 400;
@@ -48,6 +55,7 @@ img{
     text-align: center;
 }
 
+/*Footer Styling*/
 footer{
     position: fixed;
     flex: 0 0 50px;
