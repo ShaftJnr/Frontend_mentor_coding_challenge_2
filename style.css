@@ -14,7 +14,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
 }
 
 img{
@@ -29,7 +28,8 @@ img{
     width: 290px;
     padding: 20px;
     border-radius: 10px;    
-    box-shadow: 10px;
+    box-shadow: 5px 5px 20px 2px rgb(92, 92, 92);
+
 }
 
 .Heading{
@@ -49,5 +49,7 @@ img{
 }
 
 footer{
-
+    position: fixed;
+    flex: 0 0 50px;
+    margin-top: 700px;
 }
